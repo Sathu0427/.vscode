@@ -1,0 +1,41 @@
+<!DOCTYPE.html>
+<html>
+    <head>
+        <title>Contact Form</title>
+    </head>
+    <body>
+        <form method="GET"; action="process form.php">
+            <p>
+                Name: <br>
+                <input type="text"; name="name"; placeholder="Enter Name";>
+            </p>
+            <p>
+                My Hobbies are: <br>
+                <input type="checkbox"; name="hobbies[]"; value="photography";> photography
+                <input type="checkbox"; name="hobbies[]"; value="dancing";> Dancing
+                <input type="checkbox"; name="hobbies[]"; value="playing Football";> Playing Football
+            </p>
+            <p>
+                Email: <br>
+                <input type="text"; name="email_id"; id="email"; placeholder="Enter Email-id";>
+            </p>
+            <p>
+                Subject: <br>
+                <input type="text"; name="subject"; placeholder="Enter Subject";>
+            </p>
+            <p>
+                I want to learn <br>
+                <input type="radio"; name="request_type"; value="HTML 5"; checked="checked";>HTML 5
+                <input type="radio"; name="request_type"; value="CSS 3";>CSS 3
+                <input type="radio"; name="request_type"; value="JS";>JavaScript 
+            </p>
+            <p>
+                Message: <br>
+                <textarea name="Message"; cols="20"; rows="6"; placeholder="Enter Message Here"></textarea>
+            </p>
+            <p>
+                <input type="submit"; name="submit"; value="send";>
+            </p>
+        </form>
+    </body>
+</html>
